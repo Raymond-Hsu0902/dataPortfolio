@@ -11937,7 +11937,7 @@ h3, .h3 {
 
 @media (max-width: 576px) {
   h3, .h3 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 26px;
   }
 }
@@ -12027,8 +12027,9 @@ a {
 
 @media (max-width: 576px) {
   .banner {
-    background-position: center bottom;
-    height: 750px;
+    background-image: url("../img/KV-RWD.svg");
+    height: 669px;
+    top: -83px;
   }
 }
 

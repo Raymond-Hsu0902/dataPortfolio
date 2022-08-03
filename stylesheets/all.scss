@@ -117,7 +117,7 @@ h3{
   line-height: 35px;
   font-weight: 500;
   @media(max-width:576px){
-    font-size: 24px;
+    font-size: 18px;
     line-height: 26px;
   }
 }
@@ -186,7 +186,7 @@ a{
   }
 }
 .banner{
-  background-image: url("../img/KV.svg");;
+  background-image: url("../img/KV.svg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -196,8 +196,9 @@ a{
   width: 100vw;
   z-index: -1;
   @media  (max-width:576px){
-    background-position: center bottom;
-    height: 750px;
+    background-image: url("../img/KV-RWD.svg");
+    height: 669px;
+    top: -83px;
   }
 }
 
